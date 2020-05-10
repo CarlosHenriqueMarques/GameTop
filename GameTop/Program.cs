@@ -1,12 +1,12 @@
-﻿using System;
-
+﻿
 namespace GameTop
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var jogo = new JogoTop(new Jogador1(), new Jogador2());
+            jogo.IniciarJogo();
         }
     }
 }
