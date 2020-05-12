@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTop", "GameTop.csproj", "{468C8B6E-6B69-492E-B1D9-9B5D7E097B58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameTop", "GameTop.csproj", "{468C8B6E-6B69-492E-B1D9-9B5D7E097B58}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameTop.Lib", "..\GameTop.Lib\GameTop.Lib.csproj", "{0F5DC197-C1EC-4FF1-AAA1-E74F1151BA2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTOP.Interface", "..\GameTOP.Interface\GameTOP.Interface.csproj", "{BEF66902-5549-42C8-AB1D-A75461559761}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{468C8B6E-6B69-492E-B1D9-9B5D7E097B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{468C8B6E-6B69-492E-B1D9-9B5D7E097B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{468C8B6E-6B69-492E-B1D9-9B5D7E097B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F5DC197-C1EC-4FF1-AAA1-E74F1151BA2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F5DC197-C1EC-4FF1-AAA1-E74F1151BA2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F5DC197-C1EC-4FF1-AAA1-E74F1151BA2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F5DC197-C1EC-4FF1-AAA1-E74F1151BA2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF66902-5549-42C8-AB1D-A75461559761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF66902-5549-42C8-AB1D-A75461559761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF66902-5549-42C8-AB1D-A75461559761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF66902-5549-42C8-AB1D-A75461559761}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

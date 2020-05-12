@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace GameTop
+namespace GameTOP.Interface
 {
     public interface Ijogador
     {

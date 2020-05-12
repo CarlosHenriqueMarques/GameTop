@@ -1,10 +1,11 @@
-﻿using System;
+﻿using GameTOP.Interface;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace GameTop
+namespace GameTop.Lib
 {
-    class Jogador2 : Ijogador
+    public class Jogador2 : Ijogador
     {
         private readonly string _Nome;
         public Jogador2(string nome = "Zidanne")

@@ -5,4 +5,9 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GameTOP.Interface\GameTOP.Interface.csproj" />
+    <ProjectReference Include="..\GameTop.Lib\GameTop.Lib.csproj" />
+  </ItemGroup>
+
 </Project>
